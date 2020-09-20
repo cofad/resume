@@ -19,8 +19,8 @@ William R. Warner's resume written in HTML and CSS. Google Chrome is used to ren
 
 ## Build PDF
 
-1. Run "print.bat" in a terminal to build the PDF from the HTML and CSS.
+1. Run "pdf.bat" in a terminal to build the PDF from the HTML and CSS.
 
    ```bat
-   print.bat
+   pdf.bat
    ```
