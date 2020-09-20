@@ -6,9 +6,13 @@ set OUTPUT_DIRECTORY=dist
 if not exist %OUTPUT_DIRECTORY% mkdir %OUTPUT_DIRECTORY%
 
 set CWD=%cd%
+set SRC_DIRECTORY=src
+set SRC_FILE_NAME=resume.html
+set SRC_FILE_PATH=%CWD%\%SRC_DIRECTORY%\%SRC_FILE_NAME%
+
 set VERSION_SEARCH_STRING=name=""version""
 
-for /f "tokens=*" %%i in ('findstr "%VERSION_SEARCH_STRING%" resume.html') do ( 
+for /f "tokens=*" %%i in ('findstr "%VERSION_SEARCH_STRING%" %SRC_FILE_PATH%') do ( 
   set version=%%i
 )
 
@@ -27,7 +31,7 @@ start chrome ^
   --headless ^
   --disable-gpu ^
   --print-to-pdf=%CWD%\%OUTPUT_DIRECTORY%\resume-%version%.pdf ^
-  %CWD%\resume.html
+  %CWD%\%SRC_DIRECTORY%\resume.html
 
 exit /B
 
