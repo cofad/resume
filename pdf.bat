@@ -2,6 +2,9 @@
 
 setlocal enabledelayedexpansion
 
+set OUTPUT_DIRECTORY=dist
+if not exist %OUTPUT_DIRECTORY% mkdir %OUTPUT_DIRECTORY%
+
 set CWD=%cd%
 set VERSION_SEARCH_STRING=name=""version""
 
@@ -23,7 +26,7 @@ call :replaceEqualSign in version with
 start chrome ^
   --headless ^
   --disable-gpu ^
-  --print-to-pdf=%CWD%\resume-%version%.pdf ^
+  --print-to-pdf=%CWD%\%OUTPUT_DIRECTORY%\resume-%version%.pdf ^
   %CWD%\resume.html
 
 exit /B
