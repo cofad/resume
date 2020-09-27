@@ -1,6 +1,6 @@
-# William R. Warner's Resume
+# Will R. Warner's Resume
 
-William R. Warner's resume written in HTML and CSS. Google Chrome is used to render the HTML and CSS to PDF format.
+Will R. Warner's resume written in HTML and CSS. Google Chrome is used to render the HTML and CSS to PDF format.
 
 ## Table of Contents
 
