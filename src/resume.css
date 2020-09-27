@@ -24,12 +24,12 @@ body {
   text-align: center;
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 6px;
 }
 
 .contact {
   text-align: center;
-  margin: 15px;
+  margin: 10px;
 }
 
 .contact .item-separator {
@@ -42,7 +42,7 @@ body {
 }
 
 .section {
-  margin-top: 24px;
+  margin-top: 10px;
 }
 
 .section-body {
@@ -60,7 +60,7 @@ body {
 }
 
 .education-list .item {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .education-list .institution .name {
@@ -77,7 +77,7 @@ body {
 }
 
 .experience-list .item {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .experience-list .institution .position {
