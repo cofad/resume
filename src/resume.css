@@ -72,12 +72,6 @@ body {
   min-width: 110px;
 }
 
-.education-list .institution-list {
-  list-style: disc;
-  margin-left: 12px;
-  margin-top: 6px;
-}
-
 .experience-list {
   list-style: none;
 }
