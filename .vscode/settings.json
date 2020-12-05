@@ -6,5 +6,11 @@
         "cmd": "pdf.bat"
       }
     ]
-  }
+  },
+
+  "cSpell.words": [
+    "DBAs",
+    "SonarQube",
+    "willrwarner"
+  ]
 }
