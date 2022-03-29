@@ -80,6 +80,12 @@ body {
   margin-top: 10px;
 }
 
+@media print {
+  .experience-list .item {
+    page-break-inside: avoid;
+  }
+}
+
 .experience-list .institution .position {
   font-weight: bolder;
 }
