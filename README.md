@@ -6,6 +6,8 @@ Will R. Warner's resume written in HTML and CSS. Google Chrome is used to render
 
 1. [Prerequisites](#prerequisites)
 1. [Build PDF](#build-pdf)
+1. [Commit Guidelines](#commit-guidelines)
+1. [Road Map](#road-map)
 
 ## Prerequisites
 
@@ -24,3 +26,15 @@ Will R. Warner's resume written in HTML and CSS. Google Chrome is used to render
    ```bat
    pdf.bat
    ```
+
+## Commit Guidelines
+
+This project utilizes [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) guidelines for commit messages.
+
+## Road Map
+
+- [ ] Create CI/CD with GitHub actions
+  - [ ] Build process
+  - [ ] Auto versioning
+  - [ ] Commit formatting
+  - [ ] Auto releasing
