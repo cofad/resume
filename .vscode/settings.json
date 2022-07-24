@@ -5,14 +5,14 @@
   "emeraldwalk.runonsave": {
     "commands": [
       {
-        "match": ".*",
+        "match": ".html",
         "cmd": "pdf.bat"
+      },
+      {
+        "match": ".tex",
+        "cmd": "bash pdf.sh"
       }
     ]
   },
-  "cSpell.words": [
-    "DBAs",
-    "SonarQube",
-    "willrwarner"
-  ]
+  "cSpell.words": ["DBAs", "SonarQube", "willrwarner"]
 }
