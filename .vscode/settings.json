@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
   "emeraldwalk.runonsave": {
     "commands": [
       {
