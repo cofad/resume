@@ -20,6 +20,7 @@
 	"extensions": [
 	    "ms-azuretools.vscode-docker",
 		"esbenp.prettier-vscode",
-		"tomoki1207.pdf"
+		"tomoki1207.pdf",  
+		"emeraldwalk.runonsave"
     ]
 }
