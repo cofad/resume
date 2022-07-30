@@ -11,5 +11,6 @@ RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | s
 
 # [Optional] Uncomment this section to install additional OS packages.
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends texlive gh
+    && apt-get -y install --no-install-recommends texlive gh libnss3-dev libgdk-pixbuf2.0-dev libgtk-3-dev libxss-dev libasound2
 
+RUN npm install
