@@ -12,6 +12,10 @@
 }
 
 html {
+  /* Required to correct for colors when printed with puppeteer */
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  
   width: 8.5in;
 }
 

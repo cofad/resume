@@ -1,5 +1,6 @@
 # Folders
 dist
+node_modules
 
 #Files
 *.pdf
