@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Will R. Warner's resume written in HTML and CSS. Pupeeteer is used to render the HTML and CSS to PDF format.",
   "type": "module",
   "scripts": {
@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/cofad/resume.git"
   },
-  "keywords": ["resume", "pupeeteer", "html", "css"],
+  "keywords": [
+    "resume",
+    "pupeeteer",
+    "html",
+    "css"
+  ],
   "author": "Will Warner",
   "license": "MIT",
   "bugs": {
