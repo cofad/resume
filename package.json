@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Will R. Warner's resume written in HTML and CSS. Pupeeteer is used to render the HTML and CSS to PDF format.",
   "type": "module",
   "scripts": {
