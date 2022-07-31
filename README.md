@@ -1,6 +1,8 @@
 # Will R. Warner's Resume
 
-Will R. Warner's resume written in HTML and CSS. Google Chrome is used to render the HTML and CSS to PDF format.
+Will R. Warner's resume written in HTML and CSS. Puppeteer is used to render the HTML and CSS to PDF format.
+
+**Note: This project is intended to be run from a GitHub Codespace. It is untested on a local machine.**
 
 ## Table of Contents
 
@@ -13,18 +15,23 @@ Will R. Warner's resume written in HTML and CSS. Google Chrome is used to render
 
 1. Required:
 
-   1. Google Chrome (must be able to be run from a terminal using "start chrome")
+   1. node
+   1. npm
 
-1. Optional:
+## Develop
 
-   1. VS Code with emeraldwalk "Run on Save" extension (for building PDF on save)
+1. Build PDF on file changes.
+
+   ```bat
+   npm start
+   ```
 
 ## Build PDF
 
-1. Run "pdf.bat" in a terminal to build the PDF from the HTML and CSS.
+1. Build the PDF.
 
    ```bat
-   pdf.bat
+   npm run build
    ```
 
 ## Commit Guidelines
