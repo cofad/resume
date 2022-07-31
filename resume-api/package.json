@@ -1,0 +1,16 @@
+{
+  "name": "resume-api",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "ls | entr -s 'sleep 2; curl localhost:3000/releases/latest/pdf'"
+  },
+  "type": "module",
+  "author": "Will Warner",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
