@@ -4,7 +4,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "watch": "ls | entr -s 'sleep 2; curl localhost:3000/releases/latest/pdf'"
+    "watch": "ls | entr -s 'sleep 2; curl localhost:3000/releases/latest/pdf'",
+    "deploy": "flyctl deploy"
   },
   "type": "module",
   "author": "Will Warner",
